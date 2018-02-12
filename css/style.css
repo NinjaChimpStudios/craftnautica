@@ -13,7 +13,7 @@ a {
   display: flex;
   justify-content: center;
   padding: 20px;
-  -webkit-overflow-scrolling:  touch;
+  -webkit-overflow-scrolling: touch;
 }
 
 table {
@@ -34,8 +34,7 @@ th {
   text-align: left;
 }
 
-th,
-td {
+th, td {
   border-bottom: 1px solid #ddd;
 }
 
@@ -48,16 +47,16 @@ input[type=text] {
 #basics-parent {
   background-color: #082036;
   min-width: 400px;
-  padding:0;
+  padding: 0;
 }
 
 #basics {
   background-color: #082036;
   sbackground-color: #aaffaa;
   position: sticky;
-  top:0;
+  top: 0;
   padding-right: 30px;
-  -webkit-overflow-scrolling: touch;  
+  -webkit-overflow-scrolling: touch;
 }
 
 #basics ul {
@@ -89,14 +88,12 @@ th input[type=text] {
   font-style: italic;
 }
 
-
 /* firefox 19+ */
 
 :-ms-input-placeholder {
   color: #666;
   font-style: italic;
 }
-
 
 /* ie */
 
