@@ -1,0 +1,119 @@
+body {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  color: #eee;
+  background-color: #042649;
+}
+
+a {
+  color: #FEBA2A;
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  -webkit-overflow-scrolling:  touch;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #022247;
+}
+
+tr {
+  background-color: #BBDAF7;
+}
+
+th {
+  color: #022247;
+  background-color: #FEBA2A;
+  text-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+input[type=text] {
+  border-radius: 5px;
+  width: 80px;
+  border: 0px solid #444;
+}
+
+#basics-parent {
+  background-color: #082036;
+  min-width: 400px;
+  padding:0;
+}
+
+#basics {
+  background-color: #082036;
+  sbackground-color: #aaffaa;
+  position: sticky;
+  top:0;
+  padding-right: 30px;
+  -webkit-overflow-scrolling: touch;  
+}
+
+#basics ul {
+  list-style-type: circle;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: unset;
+  margin: 0 auto;
+  width: 350px;
+  margin-bottom: 20px;
+  color: #FEBA2A;
+}
+
+th input[type=text] {
+  margin-left: 20px;
+  width: 200px;
+}
+
+::-webkit-input-placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+::-moz-placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+
+/* firefox 19+ */
+
+:-ms-input-placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+
+/* ie */
+
+input:-moz-placeholder {
+  color: #666;
+  font-style: italic;
+}
+
+.user-checked {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.reset-btn {
+  font-style: italic;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: lighter;
+  cursor: pointer;
+}
