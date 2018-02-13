@@ -1283,10 +1283,10 @@ material_data[materialNames.scanner_room_hud_chip].materials = [{
 }];
 
 material_data[materialNames.scanner_room_range_upgrade].materials = [{
-  item: material_data[materialNames.quartz],
+  item: material_data[materialNames.copper_ore],
   qty: 1
 }, {
-  item: material_data[materialNames.computer_chip],
+  item: material_data[materialNames.magnetite],
   qty: 1
 }];
 
