@@ -1219,6 +1219,12 @@ material_data[materialNames.rebreather].materials = [{
 
 material_data[materialNames.reinforced_dive_suit].materials = [{
   item: material_data[materialNames.synthetic_fibers],
+  qty: 1
+}, {
+  item: material_data[materialNames.diamond],
+  qty: 2
+}, {
+  item: material_data[materialNames.titanium],
   qty: 2
 }];
 
